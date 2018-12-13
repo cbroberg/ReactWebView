@@ -1,2 +1,0 @@
-# ReactWebView
-Created with CodeSandbox
