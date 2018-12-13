@@ -20,12 +20,7 @@ function WebView(props) {
 	)
 }
 
-// const URL = `http://localhost:3005/events/add?date=2018-04-21&name=Viola%20Ingeman%20Broberg&birthday=1&content=This%20is%20so%20much%20fun%20to%20work%20with%20the%20MySQL/Express/React%20stack`
 const URL = `http://localhost:3005/event/1`
-// $response->headers->remove('X-Frame-Options')
-// $response -> headers -> set('X-Frame-Options', 'ALLOW-FROM', 'http://widgets.dev/')
-
-
 
 function App() {
   return (
