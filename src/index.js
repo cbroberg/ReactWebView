@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Markdown from './markdown'
 
 import "./styles.css"
 
@@ -31,6 +32,7 @@ function App() {
 	  <WebView src="https://console.senti.cloud/login" height="500" width="375" />
 	  <WebView src="https://console.senti.cloud/login" height="500" width="375" scroll="no" />
 	  <WebView src={URL} height="500" width="375" />
+	  <Markdown />
     </div>
   )
 }
@@ -39,3 +41,4 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 
 // https://www.lifewire.com/iframes-and-css-3468669
+
